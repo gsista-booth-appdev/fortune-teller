@@ -1,0 +1,11 @@
+<h1>Unlucky Numbers</h1>
+
+<p>Your lucky numbers for today are:</p>
+
+<ul>
+<% @puppy.each do |meow| %>
+  <li>
+    <%= meow %>
+  </li>
+  <% end %>
+</ul>
